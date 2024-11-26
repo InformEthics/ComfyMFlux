@@ -416,7 +416,7 @@ class MfluxImagePipeline:
         self.image_path = None
         self.strength = None
 
-class MfluxLoadImage:
+class MfluxLoadImg2Img:
     @classmethod
     def INPUT_TYPES(cls):
         input_dir = folder_paths.get_input_directory()
